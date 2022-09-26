@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  display: block;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  background-color: rgb(202, 253, 255);
+}
+div {
+  display: block;
+}
+
+.logo {
+  width: 300px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+li {
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+a {
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+header {
+  background-color: rgb(234, 220, 255);
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.subheader {
+  font-size: 36px;
+  margin: 16px 0px 24px;
+}
+
+button {
+  background-color: rgb(5, 199, 207);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+}
+
+#about {
+  background-color: rgb(248, 255, 220);
+}
+
+#about,
+#discord,
+#contact,
+footer {
+  padding: 48px 0px;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__description--wrapper {
+  width: 60%;
+  padding: 0px 24px;
+}
+
+.section__description--para {
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.about__img--wrapper {
+  width: 40%;
+  padding: 0px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#discord {
+  background-color: rgb(206, 254, 255);
+}
+
+#contact {
+  background-color: rgb(220, 233, 255);
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(5, 199, 207);
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 8px 16px;
+}
+
+footer {
+  background-color: rgb(170, 245, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 500px;
+  margin-bottom: 16px;
+}
+
+.footer__links {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  padding-left: 16px;
+  font-size: 24px;
+}
